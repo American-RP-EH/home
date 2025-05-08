@@ -1,0 +1,57 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>American RP - Emergency Hamburg</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="title">American RP</div>
+    <div class="buttons">
+      <a href="https://forms.gle/fSSXviTXeoJqmWUS7" target="_blank" onclick="handleLinkClick(event)">Request Admin</a>
+      <a href="https://forms.gle/kcP5QB9tFv7CWMNMA" target="_blank" onclick="handleLinkClick(event)">Appeal Ban</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="rules">
+      <h2>Server Rules</h2>
+      <ul>
+        <li>No staff disrespect (kick/ban).</li>
+        <li>You can be pulled over for:
+          <ul>
+            <li>Running stop signs (yellow signs).</li>
+            <li>Not yielding.</li>
+            <li>Driving on the wrong side of the road as a citizen or non-emergency job.</li>
+          </ul>
+        </li>
+        <li>If sirens are behind you, you must pull over — unless you're willing to possibly get rammed by an emergecny vehicle.</li>
+        <li>Weapons are legal, unless pointed at an officer for too long. Arresting a citizen for having a gun results in a kick. This is like america!</li>
+      </ul>
+    </section>
+    <button onclick="joinGame()">Join Game</button>
+  </main>
+
+  <footer>
+    <a href="mailto:exel8437@gmail.com?subject=Report%20Admin&body=Your%20Username%3A%0AUsername%20of%20bad%20admin%3A%0AWhy%20the%20admin%20is%20bad%3A%0A">Report Abusive Admin</a>
+    <div class="theme-toggle">
+      <label>
+        Dark Mode
+        <input type="checkbox" id="themeSwitcher" />
+      </label>
+    </div>
+  </footer>
+
+  <div id="popup" class="popup hidden">
+    <div class="popup-content">
+      <p>If the link isn't working, please make sure popups are enabled.</p>
+      <button onclick="closePopup()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
